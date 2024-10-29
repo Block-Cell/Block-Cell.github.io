@@ -1,5 +1,5 @@
-import { cn } from "@/lib/utils";
-import AnimatedGridPattern from "@/components/ui/animated-grid-pattern";
+import { cn } from '@/lib/utils';
+import AnimatedGridPattern from '@/components/ui/animated-grid-pattern';
 
 export default function Home() {
   return (
@@ -10,9 +10,9 @@ export default function Home() {
         duration={3}
         repeatDelay={1}
         className={cn(
-          "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]",
-          "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12",
-          "h-full"
+          '[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]',
+          'inset-x-0 inset-y-[-30%] h-[200%] skew-y-12',
+          'h-full',
         )}
       />
 
@@ -21,7 +21,6 @@ export default function Home() {
           Coming soon!
         </h1>
       </main>
-
     </div>
   );
 }
